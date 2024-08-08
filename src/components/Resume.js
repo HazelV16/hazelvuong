@@ -3,6 +3,7 @@ import {Anchor, Col, Divider, Layout, Row, theme} from "antd";
 import Educations from "./Educations";
 import Skills from "./Skills";
 import Experiences from "./Experiences";
+import Certificates from "./Certificates";
 const { Content} = Layout;
 // const onChange = (link) => {
 //     console.log('Anchor:OnChange', link);
@@ -54,6 +55,11 @@ const Resume = () => {
                                         href: '#experiences',
                                         title: 'EXPERIENCES',
                                     },
+                                    {
+                                        key: 'certificates',
+                                        href: '#certificates',
+                                        title: 'CERTIFICATES',
+                                    },
                                 ]}
                             />
                         </Col>
@@ -61,24 +67,25 @@ const Resume = () => {
                         {/*<Col flex="auto">*/}
                         <Col span={20}>
                             <Divider orientation="left" style={{fontSize: 30}}>RESUME</Divider>
-                            <a href="/Hazel_Vuong_CV.pdf" download className="resume-download-link" id="resume" style={{ textDecoration: 'none' }}>
+                            <a href="/Hazel_Vuong_CV.pdf" download className="resume-download-link" id="resume"
+                               style={{textDecoration: 'none', fontSize: 25}}>
                                 Download PDF file of Resume
                             </a>
 
                             <div
                                 id="educations"
                                 style={{
-                                border: 1,
-                                borderColor: "black",
-                                borderStyle: "dashed",
-                                borderRadius: 1,
-                                alignItems: "center",
-                                height: "50px",
-                                fontWeight: "bold",
-                                display: "flex",
-                                justifyContent: "center",
-                                margin: '10px',
-                            }}>
+                                    border: 1,
+                                    borderColor: "black",
+                                    borderStyle: "dashed",
+                                    borderRadius: 1,
+                                    alignItems: "center",
+                                    height: "50px",
+                                    fontWeight: "bold",
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    margin: '10px',
+                                }}>
                                 EDUCATIONS
                             </div>
                             <Educations/>
@@ -86,38 +93,56 @@ const Resume = () => {
                             <div
                                 id="skills"
                                 style={{
-                                border: 1,
-                                borderColor: "black",
-                                borderStyle: "dashed",
-                                borderRadius: 1,
-                                alignItems: "center",
-                                height: "50px",
-                                fontWeight: "bold",
-                                display: "flex",
-                                justifyContent: "center",
-                                margin: '10px',
-                            }}>
+                                    border: 1,
+                                    borderColor: "black",
+                                    borderStyle: "dashed",
+                                    borderRadius: 1,
+                                    alignItems: "center",
+                                    height: "50px",
+                                    fontWeight: "bold",
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    margin: '10px',
+                                }}>
                                 SKILLS
                             </div>
                             <Skills/>
 
                             <div
-                                id = "experiences"
+                                id="experiences"
                                 style={{
-                                border: 1,
-                                borderColor: "black",
-                                borderStyle: "dashed",
-                                borderRadius: 1,
-                                alignItems: "center",
-                                height: "50px",
-                                fontWeight: "bold",
-                                display: "flex",
-                                justifyContent: "center",
-                                margin: '10px',
-                            }}>
+                                    border: 1,
+                                    borderColor: "black",
+                                    borderStyle: "dashed",
+                                    borderRadius: 1,
+                                    alignItems: "center",
+                                    height: "50px",
+                                    fontWeight: "bold",
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    margin: '10px',
+                                }}>
                                 EXPERIENCES
                             </div>
                             <Experiences/>
+
+                            <div
+                                id="certificates"
+                                style={{
+                                    border: 1,
+                                    borderColor: "black",
+                                    borderStyle: "dashed",
+                                    borderRadius: 1,
+                                    alignItems: "center",
+                                    height: "50px",
+                                    fontWeight: "bold",
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    margin: '10px',
+                                }}>
+                                CERTIFICATES
+                            </div>
+                            <Certificates/>
                         </Col>
                     </Row>
                 </div>

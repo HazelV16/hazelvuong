@@ -50,26 +50,6 @@ const Skills = () => {
                 GitHub, VS Code, Postman, ServiceNow, Node-Red, Jetbrains, Azure DevOps, MacOS
             </Col>
         </Row>
-
-        <Divider style={{
-            margin: '15px',
-        }} />
-
-        <Row>
-            <Col xs={2} sm={4} md={6} lg={8} xl={6}>
-                <strong>Qualification</strong>
-            </Col>
-            <Col xs={2} sm={4} md={6} lg={8} xl={12}>
-                <a href="https://drive.google.com/file/d/1Hu6QuzDavtCocSIh53MR6TzpXCOJdIs6/view" target="_blank" style={{ textDecoration: 'none' }}>
-                    ServiceNow Certified System Administrator
-                </a>
-            </Col>
-            <Col xs={2} sm={4} md={6} lg={8} xl={6}>
-                Issued January 2024
-            </Col>
-        </Row>
-
-
         </>
     )
 };
