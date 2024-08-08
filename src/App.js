@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar'; // Ensure the correct path
 import AboutMe from './components/AboutMe';
-import Resume from './components/Resume';
+import Resume from './components/Resume/Resume';
 import Showcase from './components/Showcase';
 import Contact from './components/Contact';
 
