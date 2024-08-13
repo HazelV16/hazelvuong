@@ -36,7 +36,7 @@ const NavBar = () => {
                 <Menu
                     theme="dark"
                     mode="horizontal"
-                    defaultSelectedKeys={['1']}
+                    // defaultSelectedKeys={['2']}
                     style={{
                         flex: 1,
                         minWidth: 0,
@@ -50,23 +50,6 @@ const NavBar = () => {
                     ))}
                 </Menu>
             </Header>
-            {/*<Content*/}
-            {/*    style={{*/}
-            {/*        padding: '0 48px',*/}
-            {/*    }}*/}
-            {/*>*/}
-            {/*    <div*/}
-            {/*        style={{*/}
-            {/*            padding: 24,*/}
-            {/*            minHeight: 380,*/}
-            {/*            background: colorBgContainer,*/}
-            {/*            borderRadius: borderRadiusLG,*/}
-            {/*        }}*/}
-            {/*    >*/}
-            {/*        Content goes here*/}
-            {/*    </div>*/}
-            {/*</Content>*/}
-
         </Layout>
     );
 };

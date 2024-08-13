@@ -1,13 +1,16 @@
 import React from 'react';
-import {Anchor, Col, Divider, Layout, Row, theme} from "antd";
+import {Anchor, Col, Divider, Layout, Row, theme, FloatButton} from "antd";
 import Educations from "./Educations";
 import Skills from "./Skills";
 import Experiences from "./Experiences";
 import Certificates from "./Certificates";
+import styled from "styled-components";
 const { Content} = Layout;
-// const onChange = (link) => {
-//     console.log('Anchor:OnChange', link);
-// };
+const CustomAnchor = styled(Anchor)`
+    .ant-anchor-link-title {
+        text-decoration: none;
+    }
+`;
 const Resume = () => {
     const {
         token: { colorBgContainer, borderRadiusLG },
@@ -17,6 +20,7 @@ const Resume = () => {
         <Layout>
             <Content
                 style={{
+                    height: '90%',
                     padding: '0 48px',
                     margin: '50px',
                 }}>
@@ -30,7 +34,7 @@ const Resume = () => {
                     <Row>
                         {/*<Col flex="100px">*/}
                         <Col span={4}>
-                            <Anchor
+                            <CustomAnchor
                                 // affix={false}
                                 // onChange={onChange}
                                 replace
@@ -63,8 +67,6 @@ const Resume = () => {
                                 ]}
                             />
                         </Col>
-                        {/*<Col xs = {1}> </Col>*/}
-                        {/*<Col flex="auto">*/}
                         <Col span={20}>
                             <Divider orientation="left" style={{fontSize: 30}}>RESUME</Divider>
                             <a href="/Hazel_Vuong_CV.pdf" download className="resume-download-link" id="resume"
@@ -147,7 +149,9 @@ const Resume = () => {
                     </Row>
                 </div>
             </Content>
+            <FloatButton.BackTop visibilityHeight={0} />
         </Layout>
+
     )
 };
 
