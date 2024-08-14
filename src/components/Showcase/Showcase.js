@@ -9,6 +9,7 @@ import Testing from "./Testing";
 import {Link} from "react-router-dom";
 import ShopEasy from "./ShopEasy";
 import QuizApp from "./QuizApp";
+import WeatherToDo from "./WeatherToDo";
 const { Content} = Layout;
 
 
@@ -94,6 +95,11 @@ const Showcase = () => {
                                                 key: 'QuizApp',
                                                 href: '#QuizApp',
                                                 title: 'QuizApp Application',
+                                            },
+                                            {
+                                                key: 'WeatherToDo',
+                                                href: '#WeatherToDo',
+                                                title: 'Weather&ToDo Application',
                                             },
                                         ],
                                     },
@@ -201,6 +207,20 @@ const Showcase = () => {
                                 Simple QuizApp Project
                             </div>
                             <QuizApp/>
+
+                            <div
+                                id="WeatherToDo"
+                                style={{
+                                    alignItems: "center",
+                                    display: "flex",
+                                    fontSize: 20,
+                                    color: "#3366cc",
+                                    margin: '10px',
+                                    marginTop: '50px',
+                                }}>
+                                Weather and To Do List Application
+                            </div>
+                            <WeatherToDo/>
 
                         </Col>
                     </Row>
