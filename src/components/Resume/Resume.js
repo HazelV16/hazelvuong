@@ -23,6 +23,7 @@ const Resume = () => {
                     height: '90%',
                     padding: '0 48px',
                     margin: '50px',
+                    marginTop:'40px',
                 }}>
                 <div
                     style={{
@@ -33,7 +34,7 @@ const Resume = () => {
                     }}>
                     <Row>
                         {/*<Col flex="100px">*/}
-                        <Col span={4}>
+                        <Col span={4} style={{position: 'fixed'}}>
                             <CustomAnchor
                                 // affix={false}
                                 // onChange={onChange}
@@ -67,7 +68,7 @@ const Resume = () => {
                                 ]}
                             />
                         </Col>
-                        <Col span={20}>
+                        <Col span={20} style={{marginLeft: '200px'}}>
                             <Divider orientation="left" style={{fontSize: 30}}>RESUME</Divider>
                             <a href="/Hazel_Vuong_CV.pdf" download className="resume-download-link" id="resume"
                                style={{textDecoration: 'none', fontSize: 25}}>
