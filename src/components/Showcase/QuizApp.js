@@ -97,12 +97,12 @@ const QuizApp = () => (
         <Row justify="start">
             <Col xs={2} sm={4} md={6} lg={8} xl={4} style={{marginLeft: '30px'}}><strong>Project Structure</strong></Col>
             <Col xs={2} sm={4} md={6} lg={8} xl={10}>
-                <img src="/Showcase/ProjStructure.png" alt="Project Structure"
+                <img src={`${process.env.PUBLIC_URL}/Showcase/ProjStructure.png`} alt="Project Structure"
                      style={{width: '40%', height: 'auto'}}/>
             </Col>
             <Col xs={2} sm={4} md={6} lg={8} xl={3} style={{marginLeft: '-100px'}}><strong>Database overview</strong></Col>
             <Col xs={2} sm={4} md={6} lg={8} xl={7} style={{marginLeft: '30px'}}>
-                <img src="/Showcase/ProjDb.png" alt="Project Database"
+                <img src={`${process.env.PUBLIC_URL}/Showcase/ProjDb.png`} alt="Project Database"
                      style={{width: '60%', height: 'auto'}}/>
             </Col>
         </Row>
@@ -117,7 +117,7 @@ const QuizApp = () => (
             </Col>
             <Col xs={2} sm={4} md={6} lg={8} xl={17}>
                 <video width="100%" height="auto" controls>
-                    <source src="/Showcase/QuizAppDemo.mov" type="video/mp4"/>
+                    <source src={`${process.env.PUBLIC_URL}/Showcase/QuizAppDemo.mov`} type="video/mp4"/>
                 </video>
             </Col>
         </Row>

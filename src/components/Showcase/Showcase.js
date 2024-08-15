@@ -10,6 +10,8 @@ import {Link} from "react-router-dom";
 import ShopEasy from "./ShopEasy";
 import QuizApp from "./QuizApp";
 import WeatherToDo from "./WeatherToDo";
+import Blog from "./Blog";
+import Movie from "./Movie";
 const { Content} = Layout;
 
 
@@ -100,6 +102,16 @@ const Showcase = () => {
                                                 key: 'WeatherToDo',
                                                 href: '#WeatherToDo',
                                                 title: 'Weather&ToDo Application',
+                                            },
+                                            {
+                                                key: 'BlogWeb',
+                                                href: '#BlogWeb',
+                                                title: 'Blog Web Application',
+                                            },
+                                            {
+                                                key: 'Movie',
+                                                href: '#Movie',
+                                                title: 'Movie Application',
                                             },
                                         ],
                                     },
@@ -221,6 +233,35 @@ const Showcase = () => {
                                 Weather and To Do List Application
                             </div>
                             <WeatherToDo/>
+
+                            <div
+                                id="BlogWeb"
+                                style={{
+                                    alignItems: "center",
+                                    display: "flex",
+                                    fontSize: 20,
+                                    color: "#3366cc",
+                                    margin: '10px',
+                                    marginTop: '50px',
+                                }}>
+                                Blog Web Application
+                            </div>
+                            <Blog/>
+
+                            <div
+                                id="Movie"
+                                style={{
+                                    alignItems: "center",
+                                    display: "flex",
+                                    fontSize: 20,
+                                    color: "#3366cc",
+                                    margin: '10px',
+                                    marginTop: '50px',
+                                }}>
+                                Movie Application
+                            </div>
+                            <Movie/>
+
 
                         </Col>
                     </Row>

@@ -112,7 +112,7 @@ const Testing = () => (
             <li style={{marginLeft: '30px', marginBottom: '20px', color: '#7a00cc'}}>
                 Console application main menu
             </li>
-            <img src="/Showcase/Testing/ConsoleOuput.png" alt="Console application main menu"
+            <img src={`${process.env.PUBLIC_URL}/Showcase/Testing/ConsoleOuput.png`} alt="Console application main menu"
                  style={{width: '50%', height: 'auto', marginLeft: '30px', marginBottom: '20px',}}/>
         </ul>
 
@@ -120,7 +120,7 @@ const Testing = () => (
             <li style={{marginLeft: '30px', marginBottom: '20px', color: '#7a00cc'}}>
                 Unit test sample
             </li>
-            <img src="/Showcase/Testing/TestingSample.png" alt="Unit test sample"
+            <img src={`${process.env.PUBLIC_URL}/Showcase/Testing/TestingSample.png`} alt="Unit test sample"
                  style={{width: '50%', height: 'auto', marginLeft: '30px', marginBottom: '20px',}}/>
         </ul>
     </>

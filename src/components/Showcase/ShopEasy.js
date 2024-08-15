@@ -100,7 +100,7 @@ const ShopEasy = () => (
             </Col>
             <Col xs={2} sm={4} md={6} lg={8} xl={17}>
                 <video width="100%" height="auto" controls>
-                    <source src="/Showcase/ShopEasyDemo.mov" type="video/mp4"/>
+                    <source src={`${process.env.PUBLIC_URL}/Showcase/ShopEasyDemo.mov`} type="video/mp4"/>
                 </video>
             </Col>
         </Row>

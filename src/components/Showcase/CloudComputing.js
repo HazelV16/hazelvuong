@@ -7,7 +7,6 @@ const CloudComputing = () => (
             style={{
                 border: 1,
                 borderColor: "black",
-                // borderStyle: "dashed",
                 borderRadius: 1,
                 alignItems: "center",
                 height: "50px",
@@ -119,7 +118,7 @@ const CloudComputing = () => (
                 <strong>Application Overview</strong>
             </Col>
             <Col xs={2} sm={4} md={6} lg={8} xl={15}>
-                <img src="/Showcase/Cloud/ApplicationOverview.png" alt="Team Structure"
+                <img src={`${process.env.PUBLIC_URL}/Showcase/Cloud/ApplicationOverview.png`} alt="Application Overview"
                      style={{width: '70%', height: 'auto'}}/>
             </Col>
         </Row>
@@ -166,7 +165,7 @@ const CloudComputing = () => (
             </Col>
             <Col xs={2} sm={4} md={6} lg={8} xl={17}>
                 <video width="100%" height="auto" controls>
-                    <source src="/Showcase/Cloud/SEATourism.mp4" type="video/mp4"/>
+                    <source src={`${process.env.PUBLIC_URL}/Showcase/Cloud/SEATourism.mp4`} type="video/mp4"/>
                 </video>
             </Col>
         </Row>

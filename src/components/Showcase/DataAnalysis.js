@@ -108,7 +108,7 @@ const DataAnalysis = () => (
             <li style={{marginLeft: '30px', marginBottom: '20px', color: '#7a00cc'}}>
                 Visualise top 10 vehicles with the most owners
             </li>
-            <img src="/Showcase/DataAnalysis/top10Vehicle.png" alt="top 10 vehicles with the most owners"
+            <img src={`${process.env.PUBLIC_URL}/Showcase/DataAnalysis/top10Vehicle.png`} alt="top 10 vehicles with the most owners"
                  style={{width: '50%', height: 'auto', marginLeft: '30px', marginBottom: '20px',}}/>
         </ul>
 
@@ -116,9 +116,9 @@ const DataAnalysis = () => (
             <li style={{marginLeft: '30px', marginBottom: '20px', color: '#7a00cc'}}>
                 Relationship between vehicle fuel type and male owners
             </li>
-            <img src="/Showcase/DataAnalysis/FuelMale1.png" alt="Relationship between vehicle fuel type and male owners"
+            <img src={`${process.env.PUBLIC_URL}/Showcase/DataAnalysis/FuelMale1.png`} alt="Relationship between vehicle fuel type and male owners"
                  style={{width: '50%', height: 'auto', marginLeft: '30px', marginBottom: '20px',}}/>
-            <img src="/Showcase/DataAnalysis/FuelMale.png" alt="Relationship between vehicle fuel type and male owners"
+            <img src={`${process.env.PUBLIC_URL}/Showcase/DataAnalysis/FuelMale.png`} alt="Relationship between vehicle fuel type and male owners"
                  style={{width: '50%', height: 'auto', marginLeft: '30px', marginBottom: '20px',}}/>
         </ul>
 
@@ -126,9 +126,9 @@ const DataAnalysis = () => (
             <li style={{marginLeft: '30px', marginBottom: '20px', color: '#7a00cc'}}>
                 Relationship between power and male owners
             </li>
-            <img src="/Showcase/DataAnalysis/PowerMale.png" alt="Relationship between power and male owners"
+            <img src={`${process.env.PUBLIC_URL}/Showcase/DataAnalysis/PowerMale.png`} alt="Relationship between power and male owners"
                  style={{width: '50%', height: 'auto', marginLeft: '30px', marginBottom: '20px',}}/>
-            <img src="/Showcase/DataAnalysis/PowerMale1.png" alt="Relationship between power and male owners"
+            <img src={`${process.env.PUBLIC_URL}/Showcase/DataAnalysis/PowerMale1.png`} alt="Relationship between power and male owners"
                  style={{width: '50%', height: 'auto', marginLeft: '30px', marginBottom: '20px',}}/>
         </ul>
 

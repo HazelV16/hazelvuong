@@ -171,7 +171,7 @@ const DevOps = () => (
             <li style={{marginLeft: '30px', marginBottom: '20px', color: '#7a00cc'}}>
                 Board meeting management system Entity Relationship Diagram
             </li>
-            <img src="/Showcase/DevOps/ERD.png" alt="Board meeting management system Entity Relationship Diagram"
+            <img src={`${process.env.PUBLIC_URL}/Showcase/DevOps/ERD.png`} alt="Board meeting management system Entity Relationship Diagram"
                  style={{width: '50%', height: 'auto', marginLeft: '30px', marginBottom: '20px',}}/>
         </ul>
 
@@ -179,7 +179,7 @@ const DevOps = () => (
             <li style={{marginLeft: '30px', marginBottom: '20px', color: '#7a00cc'}}>
                 Visualisation of Frontend Architecture
             </li>
-            <img src="/Showcase/DevOps/FrontendArchitecture.png" alt="Frontend Architecture"
+            <img src={`${process.env.PUBLIC_URL}/Showcase/DevOps/FrontendArchitecture.png`} alt="Frontend Architecture"
                  style={{width: '50%', height: 'auto', marginLeft: '30px', marginBottom: '20px',}}/>
         </ul>
 
@@ -187,7 +187,7 @@ const DevOps = () => (
             <li style={{marginLeft: '30px', marginBottom: '20px', color: '#7a00cc'}}>
                 Visualisation of Backend Architecture
             </li>
-            <img src="/Showcase/DevOps/BackendArchitecture.png" alt="Backend Architecture"
+            <img src={`${process.env.PUBLIC_URL}/Showcase/DevOps/BackendArchitecture.png`} alt="Backend Architecture"
                  style={{width: '50%', height: 'auto', marginLeft: '30px', marginBottom: '20px',}}/>
         </ul>
 
@@ -195,7 +195,7 @@ const DevOps = () => (
             <li style={{marginLeft: '30px', marginBottom: '20px', color: '#7a00cc'}}>
                 CI/CD Pipeline
             </li>
-            <img src="/Showcase/DevOps/Pipeline.png" alt="Pipeline"
+            <img src={`${process.env.PUBLIC_URL}/Showcase/DevOps/Pipeline.png`} alt="Pipeline"
                  style={{width: '50%', height: 'auto', marginLeft: '30px', marginBottom: '20px',}}/>
         </ul>
 
@@ -203,7 +203,7 @@ const DevOps = () => (
             <li style={{marginLeft: '30px', marginBottom: '20px', color: '#7a00cc'}}>
                 Testing approach
             </li>
-            <img src="/Showcase/DevOps/TestingApproach.png" alt="Testing Approach"
+            <img src={`${process.env.PUBLIC_URL}/Showcase/DevOps/TestingApproach.png`} alt="Testing Approach"
                  style={{width: '50%', height: 'auto', marginLeft: '30px', marginBottom: '20px',}}/>
         </ul>
 
@@ -211,7 +211,7 @@ const DevOps = () => (
             <li style={{marginLeft: '30px', marginBottom: '20px', color: '#7a00cc'}}>
                 Final result
             </li>
-            <img src="/Showcase/DevOps/FinalResult.png" alt="Final Result"
+            <img src={`${process.env.PUBLIC_URL}/Showcase/DevOps/FinalResult.png`} alt="Final Result"
                  style={{width: '50%', height: 'auto', marginLeft: '30px', marginBottom: '20px',}}/>
         </ul>
 
