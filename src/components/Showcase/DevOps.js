@@ -116,7 +116,7 @@ const DevOps = () => (
                 <strong>Team Structure</strong>
             </Col>
             <Col xs={2} sm={4} md={6} lg={8} xl={10}>
-                <img src="/Showcase/DevOps/TeamStructure.drawio.png" alt="Team Structure"
+                <img src={`${process.env.PUBLIC_URL}/Showcase/DevOps/TeamStructure.drawio.png`} alt="Team Structure"
                      style={{width: '120%', height: 'auto'}}/>
             </Col>
         </Row>
@@ -163,7 +163,7 @@ const DevOps = () => (
             <li style={{marginLeft: '30px', marginBottom: '20px', color: '#7a00cc'}}>
                 Use case diagram for committee board meeting management system
             </li>
-            <img src="/Showcase/DevOps/UseCase.png" alt="Use Case Diagram for board management system"
+            <img src={`${process.env.PUBLIC_URL}/Showcase/DevOps/UseCase.png`} alt="Use Case Diagram for board management system"
                  style={{width: '50%', height: 'auto', marginLeft: '30px', marginBottom: '20px',}}/>
         </ul>
 
