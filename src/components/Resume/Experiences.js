@@ -2,9 +2,6 @@ import React from 'react';
 import {Col, Divider, Row} from "antd";
 import {Link} from "react-router-dom";
 const Experiences = () => {
-    const rowStyle = {
-        // margin: '0px',
-    };
     return (
         <>
             <Row>
@@ -12,7 +9,7 @@ const Experiences = () => {
                     <strong>July 2023 - July 2024</strong>
                 </Col>
                 <Col xs={2} sm={4} md={6} lg={8} xl={15}>
-                    Academic staff for Database Modelling and Information Management topic at <a href="https://www.flinders.edu.au/" target="_blank" style={{ textDecoration: 'none' }}>Flinders University</a>
+                    Academic staff for Database Modelling and Information Management topic at <a href="https://www.flinders.edu.au/" target="_blank"  rel="noreferrer" style={{ textDecoration: 'none' }}>Flinders University</a>
                 </Col>
             </Row>
 
@@ -55,7 +52,7 @@ const Experiences = () => {
                     <strong>July 2022 - July 2024</strong>
                 </Col>
                 <Col xs={2} sm={4} md={6} lg={8} xl={15}>
-                    Full-time student at Flinders University at <a href="https://www.flinders.edu.au/" target="_blank" style={{ textDecoration: 'none' }}>Flinders University</a>
+                    Full-time student at Flinders University at <a href="https://www.flinders.edu.au/" target="_blank"  rel="noreferrer" style={{ textDecoration: 'none' }}>Flinders University</a>
                 </Col>
             </Row>
 
@@ -87,7 +84,7 @@ const Experiences = () => {
                     <strong>February - May 2023</strong>
                 </Col>
                 <Col xs={2} sm={4} md={6} lg={8} xl={15}>
-                    NextGen program extern at <a href="https://www.servicenow.com/au/company/global-impact/social/digital-readiness/nextgen.html" target="_blank" style={{ textDecoration: 'none' }}>ServiceNow</a>
+                    NextGen program extern at <a href="https://www.servicenow.com/au/company/global-impact/social/digital-readiness/nextgen.html" target="_blank"  rel="noreferrer" style={{ textDecoration: 'none' }}>ServiceNow</a>
                 </Col>
             </Row>
 
@@ -119,8 +116,6 @@ const Experiences = () => {
                     </ul>
                 </Col>
             </Row>
-
-
         </>
     )
 }

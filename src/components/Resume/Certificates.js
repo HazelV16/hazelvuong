@@ -18,7 +18,7 @@ const Certificates = () => {
                         fontWeight: 'bold',
                     }}
                 >
-                    <a href="https://drive.google.com/file/d/1Hu6QuzDavtCocSIh53MR6TzpXCOJdIs6/view" target="_blank"
+                    <a href="https://drive.google.com/file/d/1Hu6QuzDavtCocSIh53MR6TzpXCOJdIs6/view" target="_blank"  rel="noreferrer"
                        style={{textDecoration: 'none'}}>
                         ServiceNow Certified System Administrator
                     </a>
@@ -69,7 +69,7 @@ const Certificates = () => {
                     }}
                 >
                     <a href="https://www.credly.com/badges/96ff5142-e799-4570-9637-29d915743362/public_url"
-                       target="_blank" style={{textDecoration: 'none'}}>
+                       target="_blank"  rel="noreferrer" style={{textDecoration: 'none'}}>
                         CyberOps Associate Issued by Cisco
                     </a>
                 </Col>

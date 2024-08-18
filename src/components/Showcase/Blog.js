@@ -49,7 +49,7 @@ const Blog = () => (
             <Col xs={2} sm={4} md={6} lg={8} xl={6} style={{marginLeft: '30px'}}>
                 <strong>System requirements</strong>
             </Col>
-            <Col xs={2} sm={4} md={6} lg={8} xl={15}>
+            <Col xs={2} sm={4} md={6} lg={8} xl={10}>
                 The website will allow users to:
                 <ol>
                     <li>Create</li>
@@ -57,6 +57,9 @@ const Blog = () => (
                     <li>Delete</li>
                     <li>Retrieve</li>
                 </ol>
+            </Col>
+            <Col span={4}>
+                <strong style={{marginRight: '10px'}}>Duration:</strong> 5 days
             </Col>
         </Row>
 
@@ -87,7 +90,7 @@ const Blog = () => (
                 <strong>Source Code</strong>
             </Col>
             <Col xs={2} sm={4} md={6} lg={8} xl={17} style={{color: 'red',}}>
-                <a href="https://github.com/HazelV16/HazelBlogWeb" target="_blank" style={{ textDecoration: 'none' }}>Go to GitHub</a>
+                <a href="https://github.com/HazelV16/HazelBlogWeb" target="_blank"  rel="noreferrer" style={{ textDecoration: 'none' }}>Go to GitHub</a>
             </Col>
         </Row>
 

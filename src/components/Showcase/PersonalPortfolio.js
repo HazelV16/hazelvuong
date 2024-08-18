@@ -68,7 +68,7 @@ const PersonalPortfolio = () => (
                 <strong>Source Code</strong>
             </Col>
             <Col xs={2} sm={4} md={6} lg={8} xl={10}>
-                <a href="https://github.com/HazelV16/hazelvuong" target="_blank" style={{ textDecoration: 'none' }}>Go to GitHub</a>
+                <a href="https://github.com/HazelV16/hazelvuong" target="_blank"  rel="noreferrer" style={{ textDecoration: 'none' }}>Go to GitHub</a>
             </Col>
         </Row>
 

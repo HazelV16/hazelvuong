@@ -49,7 +49,7 @@ const ShopEasy = () => (
             <Col xs={2} sm={4} md={6} lg={8} xl={6} style={{marginLeft: '30px'}}>
                 <strong>System requirements</strong>
             </Col>
-            <Col xs={2} sm={4} md={6} lg={8} xl={15}>
+            <Col xs={2} sm={4} md={6} lg={8} xl={10}>
                 The website will allow users to:
                 <ol>
                     <li>View product list</li>
@@ -57,6 +57,9 @@ const ShopEasy = () => (
                     <li>Add products to a shopping cart.</li>
                     <li>Proceed to checkout (Not integrated with online payment).</li>
                 </ol>
+            </Col>
+            <Col span={4}>
+                <strong style={{marginRight: '10px'}}>Duration:</strong> 5 days
             </Col>
         </Row>
 

@@ -67,12 +67,15 @@ const Movie = () => (
             <Col xs={2} sm={4} md={6} lg={8} xl={6} style={{marginLeft: '30px'}}>
                 <strong>Technologies and Tools used</strong>
             </Col>
-            <Col xs={2} sm={4} md={6} lg={8} xl={15}>
+            <Col xs={2} sm={4} md={6} lg={8} xl={10}>
                 <ul>
                     <li>React</li>
                     <li>React Router</li>
                     <li>TMDb API</li>
                 </ul>
+            </Col>
+            <Col span={4}>
+                <strong style={{marginRight: '10px'}}>Duration:</strong> 5 days
             </Col>
         </Row>
 
@@ -85,7 +88,7 @@ const Movie = () => (
                 <strong>Source Code</strong>
             </Col>
             <Col xs={2} sm={4} md={6} lg={8} xl={17} style={{color: 'red',}}>
-                <a href="https://github.com/HazelV16/ReactMovie" target="_blank" style={{ textDecoration: 'none' }}>Go to GitHub</a>
+                <a href="https://github.com/HazelV16/ReactMovie" target="_blank"  rel="noreferrer" style={{ textDecoration: 'none' }}>Go to GitHub</a>
             </Col>
         </Row>
 

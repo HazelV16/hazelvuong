@@ -1,7 +1,7 @@
 import React from 'react';
-import { Menu, Layout, theme } from 'antd';
+import { Menu, Layout} from 'antd';
 import { Link } from 'react-router-dom';
-const { Header, Content, Footer } = Layout;
+const { Header} = Layout;
 
 // Define the navigation items
 const items = [
@@ -13,9 +13,6 @@ const items = [
 ];
 
 const NavBar = () => {
-    const {
-        token: { colorBgContainer, borderRadiusLG },
-    } = theme.useToken();
 
     return (
         <Layout>
@@ -32,11 +29,9 @@ const NavBar = () => {
                 }}
             >
                 <div> Hazel's portfolio </div>
-                {/*<div className="demo-logo" />*/}
                 <Menu
                     theme="dark"
                     mode="horizontal"
-                    // defaultSelectedKeys={['2']}
                     style={{
                         flex: 1,
                         minWidth: 0,

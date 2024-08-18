@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar'; // Ensure the correct path
 import AboutMe from './components/AboutMe';
@@ -8,7 +7,7 @@ import Showcase from './components/Showcase/Showcase';
 import Contact from './components/Contact';
 import { Layout } from 'antd';
 
-const { Content, Footer } = Layout;
+const { Content} = Layout;
 
 const App = () => {
     return (

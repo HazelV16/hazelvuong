@@ -66,13 +66,16 @@ const WeatherToDo = () => (
             <Col xs={2} sm={4} md={6} lg={8} xl={6} style={{marginLeft: '30px'}}>
                 <strong>Technologies and Tools used</strong>
             </Col>
-            <Col xs={2} sm={4} md={6} lg={8} xl={15}>
+            <Col xs={2} sm={4} md={6} lg={8} xl={10}>
                 <ul>
                     <li>React</li>
                     <li>Ant Design</li>
                     <li>OpenWeather API</li>
                     <li>npm</li>
                 </ul>
+            </Col>
+            <Col span={4}>
+                <strong style={{marginRight: '10px'}}>Duration:</strong> 5 days
             </Col>
         </Row>
 

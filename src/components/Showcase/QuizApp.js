@@ -67,13 +67,16 @@ const QuizApp = () => (
             <Col xs={2} sm={4} md={6} lg={8} xl={6} style={{marginLeft: '30px'}}>
                 <strong>Technologies and Tools used</strong>
             </Col>
-            <Col xs={2} sm={4} md={6} lg={8} xl={15}>
+            <Col xs={2} sm={4} md={6} lg={8} xl={12}>
                 <ul>
                     <li>ASP.NET Core Razor Pages, Entity Framework Core</li>
                     <li>C#</li>
                     <li>JetBrains Rider</li>
                     <li>SQLite</li>
                 </ul>
+            </Col>
+            <Col span={4}>
+                <strong style={{marginRight: '10px'}}>Duration:</strong> 5 days
             </Col>
         </Row>
 
