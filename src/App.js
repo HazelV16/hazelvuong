@@ -14,6 +14,9 @@ const App = () => {
         <Router>
             <Layout>
             <NavBar />
+                <Routes>
+                <Route path="/" element={<AboutMe />} />
+                    </Routes>
                 <Content>
             <Routes>
                 <Route path="/about-me" element={<AboutMe />} />
