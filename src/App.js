@@ -14,15 +14,16 @@ const App = () => {
         <Router>
             <Layout>
             <NavBar />
-                <Routes>
-                <Route path={`${process.env.PUBLIC_URL}`} element={<AboutMe />} />
-                    </Routes>
+                {/*<Routes>*/}
+                {/*<Route path={`${process.env.PUBLIC_URL}`} element={<AboutMe />} />*/}
+                {/*    </Routes>*/}
                 <Content>
             <Routes>
                 <Route path="/about-me" element={<AboutMe />} />
                 <Route path="/resume" element={<Resume />} />
                 <Route path="/showcase" element={<Showcase />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path={`${process.env.PUBLIC_URL}`} element={<AboutMe />} />
                 {/*<Route path="/hazelvuong" element={<AboutMe />} />*/}
                 {/*<Route path="/" element={<AboutMe />} />*/}
             </Routes>
