@@ -15,7 +15,7 @@ const App = () => {
             <Layout>
             <NavBar />
                 <Routes>
-                <Route path="/" element={<AboutMe />} />
+                <Route path={`${process.env.PUBLIC_URL}`} element={<AboutMe />} />
                     </Routes>
                 <Content>
             <Routes>
