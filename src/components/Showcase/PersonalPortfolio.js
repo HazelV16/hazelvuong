@@ -81,7 +81,8 @@ const PersonalPortfolio = () => (
                 <strong>Final Product</strong>
             </Col>
             <Col xs={2} sm={4} md={6} lg={8} xl={10}>
-                <a>Fill in later</a>
+                <a href={`${process.env.PUBLIC_URL}/hazelvuong`} target="_blank" rel="noreferrer"
+                   style={{textDecoration: 'none'}}>Hazel Vuong's Portfolio website</a>  (The website you are viewing)
             </Col>
         </Row>
     </>
